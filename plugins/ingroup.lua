@@ -1208,7 +1208,7 @@ if msg.to.type == 'chat' then
     end
 end
 --Begin chat settings
-    if matches[1] == 'lock' then
+    if matches[1] == 'o' then
       local target = msg.to.id
 		if matches[2] == 'name' then
 			savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked name ")
@@ -1251,7 +1251,7 @@ end
 			return lock_group_contacts(msg, data, target)
 		end
 	end
-    if matches[1] == 'unlock' then
+    if matches[1] == 'c' then
 		local target = msg.to.id
 		if matches[2] == 'name' then
 			savelog(msg.to.id, name_log.." ["..msg.from.id.."] unlocked name ")
@@ -1302,7 +1302,7 @@ end
 	
   --Begin Chat mutes
 
-  if matches[1] == 'mute' and is_owner(msg) then
+  if matches[1] == 'o' and is_owner(msg) then
 			local chat_id = msg.to.id
 			if matches[2] == 'audio' then
 			local msg_type = 'Audio'
@@ -1375,7 +1375,7 @@ end
 				end
 			end
 		end
-		if matches[1] == 'unmute' and is_owner(msg) then
+		if matches[1] == 'c' and is_owner(msg) then
 			local chat_id = msg.to.id
 			if matches[2] == 'audio' then
 			local msg_type = 'Audio'
@@ -1714,21 +1714,21 @@ return {
   "^[#!/](demote) (.*)$",
   "^[#!/](demote)",
   "^[#!/](set) ([^%s]+) (.*)$",
-  "^[#!/](lock) (.*)$",
+  "^[#!/]([Oo]) (.*)$",
   "^[#!/](setowner) (%d+)$",
   "^[#!/](setowner)",
   "^[#!/](owner)$",
   "^[#!/](res) (.*)$",
   "^[#!/](setgpowner) (%d+) (%d+)$",-- (group id) (owner id)
-  "^[#!/](unlock) (.*)$",
+  "^[#!/]([Cc]) (.*)$",
   "^[#!/](setflood) (%d+)$",
   "^[#!/](settings)$",
   "^[#!/](public) (.*)$",
   "^[#!/](modlist)$",
   "^[#!/](newlink)$",
   "^[#!/](link)$",
-  "^[#!/]([Mm]ute) ([^%s]+)$",
-  "^[#!/]([Uu]nmute) ([^%s]+)$",
+  "^[#!/]([Oo]) ([^%s]+)$",
+  "^[#!/]([Cc]) ([^%s]+)$",
   "^[#!/]([Mm]uteuser)$",
   "^[#!/]([Mm]uteuser) (.*)$",
   "^[#!/]([Mm]uteslist)$",
