@@ -784,7 +784,7 @@ function run(msg, matches)
 				local target = matches[2]
 				return set_rules(msg, data, target)
 			end
-			if matches[1] == 'close' then
+			if matches[1] == 'o' then
 				local target = matches[2]
 				if matches[3] == 'name' then
 					return lock_group_name(msg, data, target)
@@ -815,7 +815,7 @@ function run(msg, matches)
 					return lock_group_sticker(msg, data, target)
 				end
 			end
-			if matches[1] == 'open' then
+			if matches[1] == 'c' then
 				local target = matches[2]
 				if matches[3] == 'name' then
 					return unlock_group_name(msg, data, target)
@@ -1054,10 +1054,10 @@ return {
     "^[#!/](setname) (.*)$",
     "^[#!/](setgpname) (%d+) (.*)$",
     "^[#!/](setname) (%d+) (.*)$",
-    "^(close) (%d+) (.*)$",
-    "^(open) (%d+) (.*)$",
-	"^(close) (%d+)$",
-	"^(open) (%d+)$",
+    "^(o) (%d+) (.*)$",
+    "^(c) (%d+) (.*)$",
+	"^(o) (%d+)$",
+	"^(c) (%d+)$",
     "^(settings) (.*) (%d+)$",
     "^(wholist)$",
     "^(who)$",
