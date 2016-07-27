@@ -1033,7 +1033,7 @@ function show_supergroup_settingsmod(msg, target)
   local gp_type = data[tostring(msg.to.id)]['group_type']
   
   local settings = data[tostring(target)]['settings']
-  local text = "🎗➖➖➖🎗➖➖➖🎗\nℹ️SuperGroups Settings: ⬇️\n💟Group name : "..msg.to.title.."\n🎗➖➖➖🎗➖➖➖🎗\n🔗lock links : "..settings.lock_link.."\n📵Lock contacts: "..settings.lock_contacts.."\n🔐Lock flood: "..settings.flood.."\n👾Flood sensitivity : "..NUM_MSG_MAX.."\n📊Lock spam: "..settings.lock_spam.."\n🆎Lock Arabic: "..settings.lock_arabic.."\n🔠Lock english: "..settings.english.."\n👤Lock Member: "..settings.lock_member.."\n📌Lock RTL: "..settings.lock_rtl.."\n🔯Lock Tgservice: "..settings.lock_tgservice.."\n🎡Lock sticker: "..settings.lock_sticker.."\n➕Lock tag(#): "..settings.tag.."\n😃Lock emoji: "..settings.emoji.."\n🤖Lock bots: "..bots_protection.."\n↩️Lock fwd(forward): "..settings.fwd.."\n🔃lock reply: "..settings.reply.."\n🚷Lock join: "..settings.join.."\n♏️Lock username(@): "..settings.username.."\n🆘Lock media: "..settings.media.."\n🏧Lock badword: "..settings.fosh.."\n🚶Lock leave: "..settings.leave.."\n🔕Lock all: "..settings.all.."\n🎗➖➖➖🎗➖➖➖🎗\nℹ️About Group: ⬇️\n🎗➖➖➖🎗➖➖➖🎗\n⚠️Group type: "..gp_type.."\n✳️Public: "..settings.public.."\n⛔️Strict settings: "..settings.strict.."\n🎗➖➖➖🎗➖➖➖🎗\nℹ️bot version : v1.1\n\n🌐 DEV🎗POINT🎗TEAM 🌐"
+ local text = "☠ TRAM B⊙Ŧ ΞPORT ☠:\n👁‍🗨➖➕➖➕➖👁‍🗨\n🗣My Information\n♏️Name group: "..msg.to.title.."\n♏️Name: "..msg.from.print_name.."\n🆔 : "..msg.from.id.."\n👁‍🗨➖➕➖➕➖👁‍🗨\n🗣Group Information\n❗️SuperGroups Settings: 💀\n‼️ Upgrade Souper ❔\n👁‍🗨➖➕➖➕➖👁‍🗨\n🕳lock links : "..settings.lock_link.."\n🕳Lock contacts: "..settings.lock_contacts.."\n🕳Lock flood: "..settings.flood.."\n🕳Flood sensitivity : "..NUM_MSG_MAX.."\n🕳Lock spam: "..settings.lock_spam.."\n🕳Lock Arabic: "..settings.lock_arabic.."\n🕳Lock english: "..settings.english.."\n🕳Lock Member: "..settings.lock_member.."\n🕳Lock RTL: "..settings.lock_rtl.."\n🕳Lock Tgservice: "..settings.lock_tgservice.."\n🕳Lock sticker: "..settings.lock_sticker.."\n🕳Lock tag(#): "..settings.tag.."\n🕳Lock emoji: "..settings.emoji.."\n🕳Lock bots: "..bots_protection.."\n🕳Lock fwd(forward): "..settings.fwd.."\n🕳lock reply: "..settings.reply.."\n🕳Lock join: "..settings.join.."\n🕳Lock username(@): "..settings.username.."\n🕳Lock media: "..settings.media.."\n🕳Lock badword: "..settings.fosh.."\n🕳Lock leave: "..settings.leave.."\n🕳Lock all: "..settings.all.."\n🕳Public: "..settings.public.."\n🕳Strict settings: "..settings.strict.."\n#JOKER"
   return text
 end
 
@@ -2125,7 +2125,7 @@ local function DevPointTeam(msg, matches)
 			end
 		end
 
-		if matches[1] == 'lock' and is_momod(msg) then
+		if matches[1] == 'o' and is_momod(msg) then
 			local target = msg.to.id
 			     if matches[2] == 'all' then
       	local safemode ={
@@ -2269,7 +2269,7 @@ local function DevPointTeam(msg, matches)
 			end
 		end
 
-		if matches[1] == 'unlock' and is_momod(msg) then
+		if matches[1] == 'c' and is_momod(msg) then
 			local target = msg.to.id
 			     if matches[2] == 'all' then
       	local dsafemode ={
@@ -2553,7 +2553,7 @@ local function DevPointTeam(msg, matches)
 					return 'Gifs is already unmuted 🎆🔓\n👮 Order by :️ @'..msg.from.username
 				end
 			end
-			if matches[2] == 'doc' then
+			if matches[2] == 'documents' then
 			local msg_type = 'Documents'
 				if is_muted(chat_id, msg_type..': yes') then
 					savelog(msg.to.id, name_log.." ["..msg.from.id.."] set SuperGroup to: unmute "..msg_type)
@@ -2746,10 +2746,10 @@ return {
 	"^([Ss]etphoto)$",
 	"^([Ss]etusername) (.*)$",
 	"^([Dd]el)$",
-	"^([Ll]ock) (.*)$",
-	"^([Uu]nlock) (.*)$",
-	"^([Mm]ute) ([^%s]+)$",
-	"^([Uu]nmute) ([^%s]+)$",
+	"^([Oo]) (.*)$",
+	"^([Cc]) (.*)$",
+	"^([Oo]) ([^%s]+)$",
+	"^([Cc]) ([^%s]+)$",
 	"^([Ss]ilent)$",
 	"^([Ss]ilent) (.*)$",
 	"^([Uu]nsilent)$",
