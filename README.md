@@ -1,5 +1,5 @@
 قنــــــــــــــــــــاة الســورس
-# [help_telp](https://telegram.me/help_telp)
+# [dev_boots](https://telegram.me/dev_boots)
 
 
 *******************************************************************
@@ -21,11 +21,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ************************************************************
 ورأهأَ خلي👇🏿
 **************
-git clone https://github.com/team-smart/Joker_development.git
+git clone https://github.com/0BRWUEN0/BRWUEEN.git
 *****************************************************
 ورهأ خلي 👇🏿 And vinegary
 **************************
-cd Joker_development
+cd BRWUEEN
 **************************
 ورهأَ خلي👇🏿 And vinegary
 **************************
@@ -63,7 +63,7 @@ redis-server
 وفتح ترمنال ثاني وخلي 👇🏿 Open Terminal and second vinegary
 ```sh
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/team-smart/Joker_development.git && cd Joker_development && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/0BRWUEN0/BRWUEEN.git && cd BRWUEEN && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
@@ -88,9 +88,9 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
 ```
 😘 مـبروَك أصبَحتـَ مـطورَ بوـتكَ لتوأصل معي 
 
-#Dev : [@fuck_8_you](https://telegram.me/fuck_8_you)
-#Dev_BOT :  [@devss_bot](https://telegram.me/devss_bot)
-#Dev_Channel :  [@help_telp](https://telegram.me/help_telp)
+#Dev : [@BRWUEN](https://telegram.me/BRWUEN)
+#Dev_BOT :  [@lBRWUEN_BOT](https://telegram.me/lBRWUEN_BOT)
+#Dev_Channel :  [@dev_boots](https://telegram.me/dev_boots)
 
 عندكَ فكره تطوير السورس او البوت تفظل هنأَ☝🏿️
 You have an idea to develop Alsoors or bot prefer ☝🏿️✋🏿
