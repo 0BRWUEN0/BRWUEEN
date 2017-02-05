@@ -41,7 +41,6 @@ do local _ = {
   },
   sudo_users = {
     141657340,
-    121757836,
   }
 }
 return _
