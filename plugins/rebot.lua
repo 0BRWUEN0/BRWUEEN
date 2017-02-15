@@ -16,7 +16,8 @@ if ( msg.text ) then
 💡 @BRWUEN
 💡 @LBRWUEN_BOT
 
-
+مدونتنا ( https://brwuen.blogspot.com )
+        
 تابع قناتنا للبوتات وللتعليم ↶↶
 
 ☑️ @dev_boots @dev_boots
