@@ -18,6 +18,8 @@ function run(msg, matches)
 ▫️ @BRWUEN
 ▪️ @LBRWUEN_BOT
 
+مدونتنا ( https://brwuen.blogspot.com )
+
 🚧 تابع قناتنا للبوتات ⬇️ 🚧
 
 @dev_boots 🗼 @dev_boots
