@@ -1650,7 +1650,7 @@ return "🎀 مدير المجموعة المحترم 🎀["..group_owner..']'
             local target = msg.to.id 
             if matches[2] == 'الروابط' then 
                 savelog(msg.to.id, name_log.." ["..msg.from.id.."] unlocked link posting") 
-                return unlock_group_links(msg, data, target) 
+                return unlock_group_ads(msg, data, target) 
             end 
             if matches[2] == 'الكلايش' then 
                 savelog(msg.to.id, name_log.." ["..msg.from.id.."] unlocked spam") 
