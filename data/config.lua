@@ -1,38 +1,19 @@
 do local _ = {
-  about_text = "BRWUEN v2\nAn advanced administration bot based on TG-CLI written in Lua\n\nhttps://github.com/0BRWUEN0/BRWUEEN\n\nAdmins\n@BRWUEN [Founder]\n@imandaneshi [Developer]\n@POTUS [Developer]\n@seyedan25 [Manager]\n@aRandomStranger [Admin]\n\nSpecial thanks to\nawkward_potato\nSiyanew\ntopkecleon\nVamptacus\n\nOur channels\n@teleseedch [English]\n@iranseed [persian]\n\nOur website \nhttp://teleseed.seedteam.org/\n",
+  about_text = "BRWUEN v3\nAn advanced administration bot based on TG-CLI written in Lua\n\nhttps://github.com/0BRWUEN0/BRWUEEN\n\nAdmins\n@BRWUEN [Founder]\n@imandaneshi [Developer]\n@POTUS [Developer]\n@seyedan25 [Manager]\n@aRandomStranger [Admin]\n\nSpecial thanks to\nawkward_potato\nSiyanew\ntopkecleon\nVamptacus\n\nOur channels\n@teleseedch [English]\n@iranseed [persian]\n\nOur website \nhttp://teleseed.seedteam.org/\n",
   enabled_plugins = {
-    "voice",
-    "VIRSON",
-    "textphoto",
     "supergroup",
-    "sticker",
     "lock_fwd",
     "lock_media",
     "lock_bot",
-    "setwelcome",
     "run",
     "repley",
     "rebot",
     "msg_checks",
-    "me",
-    "kickme",
-    "invite",
     "info",
-    "getfile",
     "clean",
-    "badword",
     "ar-plugins",
     "ar-banhammer",
-    "anti_spam",
-    "all",
-    "addtime",
-    "addsudo",
-    "commands",
-    "BRWUEN_AR",
-    "BRWUEN_AR_",
-    "BR",
     "ads",
-    "kickbot",
     "BRWUEN",
     "welcome",
   },
@@ -43,7 +24,7 @@ do local _ = {
     data = "data/moderation.json"
   },
   sudo_users = {
-    141657340,
+    310233496,
   }
 }
 return _
