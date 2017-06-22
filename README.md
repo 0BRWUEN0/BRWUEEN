@@ -1,5 +1,5 @@
-قنــــــــــــــــــــاة الســورس
-# [dev_boots](https://telegram.me/dev_boots)
+قنــــاة الســورس
+# [vip_api](https://telegram.me/vip_api)
 
 
 *******************************************************************
@@ -89,8 +89,8 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
 😘 مـبروَك أصبَحتـَ مـطورَ بوـتكَ لتوأصل معي 
 
 #Dev : [@BRWUEN](https://telegram.me/BRWUEN)
-#Dev_BOT :  [@lBRWUEN_BOT](https://telegram.me/lBRWUEN_BOT)
-#Dev_Channel :  [@dev_boots](https://telegram.me/dev_boots)
+#Dev_BOT :  [@BRWUEN_BOT](https://telegram.me/BRWUEN_BOT)
+#Dev_Channel :  [@vip_api](https://telegram.me/vip_api)
 
 عندكَ فكره تطوير السورس او البوت تفظل هنأَ☝🏿️
 You have an idea to develop Alsoors or bot prefer ☝🏿️✋🏿
