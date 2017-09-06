@@ -1,5 +1,7 @@
 قنــــاة الســورس
-# [vip_api](https://telegram.me/vip_api)
+# [🔥TEAM-BRWUEN-BOT🔥](https://telegram.me/vip_api)
+
+#[🔥TEAM-BRWUEN-BOT🔥|🔥TEAM-BRWUEN-BOT🔥]
 
 
 *******************************************************************
